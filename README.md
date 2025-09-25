@@ -141,35 +141,5 @@ uv run mcpserver/client-sse.py
 - `GROQ_API_KEY`: Required for conversational AI features
 - Configure in `.env` file or system environment
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Docker not found**: Install Docker Desktop and ensure it's running
-2. **GROQ_API_KEY missing**: Create a `.env` file with your API key  
-3. **Claude installation issues**: Ensure Claude Desktop is installed and running
-
-### Development Tips
-
-- Use `uv run mcp dev` for development with hot reload
-- Check MCP Inspector for debugging server issues
-- Use `clear` command in interactive chat to reset conversation history
-
-## Learning Resources
-
-This project serves as a comprehensive example for:
-- Building production-ready MCP servers
-- Integrating external APIs with MCP
-- Creating conversational AI interfaces
-- Implementing multiple client patterns
-- Docker deployment strategies
-
-Perfect for learning MCP development, weather data integration, and building conversational AI tools.
-
-## Contributing
-
-Feel free to submit issues, fork the repository, and create pull requests for improvements.
-
-## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
