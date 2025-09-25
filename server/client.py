@@ -22,7 +22,7 @@ async def run_memory_chat():
     llm = ChatGroq(model="qwen-qwq-32b")
 
     # Create agent with memory_enabled=True
-    agent = MCPAgent(
+    agent = MCPAgent( 
         llm=llm,
         client=client,
         max_steps=15,

@@ -139,6 +139,7 @@ celerybeat.pid
 .envrc
 .venv
 server/.env
+web-search-mcp/.env
 env/
 venv/
 ENV/
